@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="robots" content="index, follow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Flowers shop</title>
+    <link rel="icon" href="/img/icon.png" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <!--Navigation-->
+    <div class="header">
+      <div>Name and/or logo</div>
+      <div>Working hours</div>
+      <div>Delivery terms</div>
+      <div>Contacts</div>
+    </div>
+    <div class="nav-list">
+      <div><a href="#">About Us</a></div>
+      <div><a href="#">Sales</a></div>
+      <div><a href="#">Single</a></div>
+      <div><a href="#">Bouquets</a></div>
+      <div><a href="#">Compositions</a></div>
+      <div><a href="#">Reviews</a></div>
+      <div><a href="#">Account</a></div>
+      <div><a href="#">Favourite</a></div>
+      <div><a href="#">Cart</a></div>
+    </div>
+    <main>
+      <!--Main banner-->
+      <div class="main-banner">
+        <a href="#"><img src="/img/angle-left.svg" alt="" id="arrow-left" /></a>
+        <a href="#"
+          ><img
+            src="https://images.pexels.com/photos/776653/pexels-photo-776653.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt=""
+            id="banner1"
+        /></a>
+        <a href="#"><img src="/img/banner3.jpg" alt="" id="banner2" /> </a>
+        <a href="#"><img src="/img/banner4.jpg" alt="" id="banner3" /> </a>
+        <a href="#"
+          ><img src="/img/angle-right.svg" alt="" id="arrow-right"
+        /></a>
+      </div>
+      <!--Form-->
+      <button id="order">I want to make an order</button>
+      <div id="form">
+        <h3>Form for making an order</h3>
+        <button><i class="uil uil-multiply"></i></button>
+        <br /><br />
+        <form action="#order-complete" method="GET">
+          <label for="name">Enter your name here:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            minlength="3"
+            maxlength="100"
+            pattern="[a-zA-Z0-9]+"
+          />
+          <br /><br />
+          <label for="phone">Enter your phone here:</label>
+          <input
+            type="text"
+            name="phone"
+            id="phone"
+            required
+            pattern="[0-9]{11,12}"
+          />
+          <br /><br />
+          <label for="adress">Enter your adress here:</label>
+          <input type="text" id="adress" name="adress" required />
+          <br /><br />
+          <label for="text"
+            >If you have any requirements you can add it here:</label
+          >
+          <br /><br />
+          <textarea
+            name=""
+            id=""
+            cols="50"
+            rows="8"
+            placeholder="Type your text here"
+          ></textarea>
+          <br /><br />
+          <label for="question>"
+            >Would you like to recieve a news from us?</label
+          >
+          <input type="radio" name="answer" id="yes" value="yes" />
+          <label for="yes">Yes</label>
+          <input type="radio" name="answer" id="yes" value="yes" />
+          <label for="yes">No</label>
+          <br /><br />
+          <input type="submit" value="Submit" id="submit" />
+        </form>
+      </div>
+      <!--Content-->
+      <div class="main-conteiner">
+        <h2 id="flower-h2">single flowers</h2>
+        <div class="single-flowers">
+          <figure>
+            <img
+              src="https://images.pexels.com/photos/11244762/pexels-photo-11244762.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+              alt=""
+            />
+            <figcaption id="bouquet-name">
+              <a href="#">Bouquet 1</a>
+            </figcaption>
+            <p id="bouquet-caption">
+              These very beautiful flowers will bring you comfort during a rough
+              period
+            </p>
+            <button class="buy-btn">Buy</button>
+            <img src="/img/heart-black.png" alt="" id="blackheart" />
+            <img src="/img/heart-pink.png" alt="" id="pinkheart" />
+          </figure>
+          <figure>
+            <img
+              src="https://images.pexels.com/photos/3971980/pexels-photo-3971980.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+              alt=""
+            />
+            <figcaption><a href="#">Bouquet 2</a></figcaption>
+            <button class="buy-btn">Buy</button>
+          </figure>
+          <figure>
+            <img
+              src="https://images.pexels.com/photos/350342/pexels-photo-350342.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+              alt=""
+            />
+            <figcaption><a href="#">Bouquet 3</a></figcaption>
+            <button class="buy-btn">Buy</button>
+          </figure>
+          <figure>
+            <img
+              src="https://images.pexels.com/photos/11244998/pexels-photo-11244998.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+              alt=""
+            />
+            <figcaption><a href="#">Bouquet 4</a></figcaption>
+            <button class="buy-btn">Buy</button>
+          </figure>
+          <figure>
+            <img
+              src="https://images.pexels.com/photos/1076233/pexels-photo-1076233.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+              alt=""
+            />
+            <figcaption><a href="#">Bouquet 5</a></figcaption>
+            <button class="buy-btn">Buy</button>
+          </figure>
+          <figure>
+            <img
+              src="https://images.pexels.com/photos/8881701/pexels-photo-8881701.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+              alt=""
+            />
+            <figcaption><a href="#">Bouquet 6</a></figcaption>
+            <button class="buy-btn">Buy</button>
+          </figure>
+        </div>
+        <a href="#"><button class="more-btn">more</button></a>
+
+        <h2>bouquets</h2>
+        <div class="bouquets">
+          <figure>
+            <img
+              src="https://images.pexels.com/photos/1488310/pexels-photo-1488310.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+              alt=""
+            />
+            <figcaption><a href="#">Bouquet 1</a></figcaption>
+          </figure>
+          <figure>
+            <img
+              src="https://images.pexels.com/photos/306066/pexels-photo-306066.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+              alt=""
+            />
+            <figcaption><a href="#">Bouquet 2</a></figcaption>
+          </figure>
+          <figure>
+            <img
+              src="https://images.pexels.com/photos/1233442/pexels-photo-1233442.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+              alt=""
+            />
+            <figcaption><a href="#">Bouquet 3</a></figcaption>
+          </figure>
+          <figure>
+            <img
+              src="https://images.pexels.com/photos/289519/pexels-photo-289519.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+              alt=""
+            />
+            <figcaption><a href="#">Bouquet 4</a></figcaption>
+          </figure>
+          <figure>
+            <img
+              src="https://images.pexels.com/photos/759668/pexels-photo-759668.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+              alt=""
+            />
+            <figcaption><a href="#">Bouquet 5</a></figcaption>
+          </figure>
+          <figure>
+            <img
+              src="https://images.pexels.com/photos/2115971/pexels-photo-2115971.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+              alt=""
+            />
+            <figcaption><a href="#">Bouquet 6</a></figcaption>
+          </figure>
+        </div>
+        <button class="more-btn">more</button>
+
+        <h2>wedding compositions</h2>
+        <div class="compositions">
+          <figure>
+            <img
+              src="https://images.pexels.com/photos/585410/pexels-photo-585410.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+              alt=""
+            />
+            <figcaption><a href="#">Bouquet 1</a></figcaption>
+          </figure>
+          <figure>
+            <img
+              src="https://images.pexels.com/photos/10074390/pexels-photo-10074390.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+              alt=""
+            />
+            <figcaption><a href="#">Bouquet 2</a></figcaption>
+          </figure>
+          <figure>
+            <img
+              src="https://images.pexels.com/photos/10074386/pexels-photo-10074386.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+              alt=""
+            />
+            <figcaption><a href="#">Bouquet 3</a></figcaption>
+          </figure>
+          <figure>
+            <img
+              src="https://images.pexels.com/photos/4969881/pexels-photo-4969881.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+              alt=""
+            />
+            <figcaption><a href="#">Bouquet 4</a></figcaption>
+          </figure>
+          <figure>
+            <img
+              src="https://images.pexels.com/photos/4095338/pexels-photo-4095338.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+              alt=""
+            />
+            <figcaption><a href="#">Bouquet 5</a></figcaption>
+          </figure>
+          <figure>
+            <img
+              src="https://images.pexels.com/photos/4975425/pexels-photo-4975425.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+              alt=""
+            />
+            <figcaption><a href="#">Bouquet 6</a></figcaption>
+          </figure>
+        </div>
+        <button class="more-btn">more</button>
+      </div>
+    </main>
+    <footer>
+      <button class="up-btn">
+        <a href="#">
+          <img src="/img/arrow_up.svg" alt="" />
+        </a>
+      </button>
+      <p>&copy; copyright</p>
+    </footer>
+  </body>
+  <script src="/script.js"></script>
+</html>

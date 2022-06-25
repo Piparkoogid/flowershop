@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+  }
+  
+  /*Header*/
+  .header {
+    background-image: url(/img/navigation.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .header div {
+    padding: 2rem;
+    text-transform: uppercase;
+  }
+  
+  /*Navigation*/
+  
+  .nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    padding: 1rem;
+    background: rgb(243, 143, 160);
+  }
+  
+  .nav-list li {
+    list-style: none;
+  }
+  
+  .nav-list a {
+    padding: 1rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  .nav-list a:hover {
+    background: rgb(255, 255, 255); 
+    color: rgb(218, 38, 68);
+    cursor: pointer;
+  }
+  
+  /*Banner*/
+  .main-banner {
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem auto; 
+     
+  }
+  
+  .main-banner img{
+    width: 40rem;
+    height: auto;
+    object-fit: contain;
+  }
+  
+  
+  
+  /*Main*/
+  .main-conteiner {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+  }
+ 
+  .single-flowers,
+  .bouquets,
+  .compositions {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;   
+    gap: 2rem;      
+  }
+  
+  .single-flowers img,
+  .bouquets img,
+  .compositions img {
+    width: 15rem;
+    height: 20rem;
+    object-fit: cover;   
+  } 
+  
+  figure {
+      display: flex;
+      gap: 0.3rem;
+      flex-direction: column;
+      align-items: center;
+  }
+  
+  figcaption {
+    padding: 1rem 5rem;
+    background: rgb(243, 143, 160);    
+    text-align: center;
+  }
+
+  figcaption:hover {
+    background: rgb(119, 136, 153);
+  }
+  
+  figcaption a {    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;    
+    text-decoration: solid;    
+  }
+  
+  .buy-btn {
+    width: 5rem;
+    height: 2rem;    
+    border: 0.1rem solid rgb(184, 187, 186);
+    border-radius: 0.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    background-color:rgb(218, 38, 68);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+  
+  .buy-btn:hover {
+    width: 7rem;
+    height: 3rem;
+    cursor: pointer;  
+    font-size: large;
+  }
+  
+  h2{
+    width: 85%;   
+    margin: 0 auto 1rem;
+    padding: 1rem;    
+    background: rgb(224, 77, 102);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: center;
+  }  
+  
+  .more-btn {
+    width: 10rem;
+    height: 3rem;
+    margin: 1rem auto 5rem;   
+    background: rgb(119, 136, 153);
+    border: 0.1rem solid rgb(184, 187, 186);
+    border-radius: 0.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    cursor: pointer;    
+  }
+  
+  .up-btn{
+    width: 3rem;
+    height: 2.5rem;
+    border: none;    
+  }
+  

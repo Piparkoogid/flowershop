@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+ 
+}
+
+img {
+  height: 20rem;
+  width: auto;  
+}
+
+
+.flowers{
+  display: flex;
+ 
+}
+
+p {
+  animation: 3s ease-in 1s infinite reverse both running slidein; 
+}
